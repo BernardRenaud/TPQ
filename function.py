@@ -1,3 +1,16 @@
 # coding: utf-8
-# saving the last input cells content
-%save -f function.py _i
+def f(x):
+    ''' Function to compute the square of a number.
+    
+    Parameters
+    ==========
+    x: float
+        input number
+    
+    Returns
+    =======
+    y: float
+        (positive) output number
+    '''
+    y = x ** 2
+    return y
